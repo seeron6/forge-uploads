@@ -1,0 +1,21 @@
+{
+  "forge_version": "1",
+  "slug": "uploads-canonical",
+  "category": "media",
+  "name": "File Uploads",
+  "description": "Resumable multipart uploads to S3-compatible storage, async virus scanning, on-the-fly image transforms, and signed-URL access controls.",
+  "parent_id": null,
+  "is_base": true,
+  "stack": {
+    "language": "node",
+    "framework": "s3",
+    "runtime": "node"
+  },
+  "connectors": [
+    "resumable",
+    "scan",
+    "transform",
+    "signed"
+  ],
+  "config_schema_version": "1.0.0"
+}
