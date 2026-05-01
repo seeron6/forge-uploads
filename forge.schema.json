@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "sections": [
+    {
+      "key": "features",
+      "label": "Feature toggles",
+      "fields": [
+        {
+          "key": "resumable.enabled",
+          "type": "boolean",
+          "label": "Enable Resumable",
+          "default": true
+        },
+        {
+          "key": "scan.enabled",
+          "type": "boolean",
+          "label": "Enable Virus scan",
+          "default": true
+        },
+        {
+          "key": "transform.enabled",
+          "type": "boolean",
+          "label": "Enable Transforms",
+          "default": true
+        },
+        {
+          "key": "signed.enabled",
+          "type": "boolean",
+          "label": "Enable Signed URLs",
+          "default": true
+        }
+      ]
+    },
+    {
+      "key": "theming",
+      "label": "Branding",
+      "fields": [
+        {
+          "key": "brand_name",
+          "type": "string",
+          "label": "Product name",
+          "default": ""
+        },
+        {
+          "key": "brand_color",
+          "type": "color",
+          "label": "Primary brand colour",
+          "default": "#ff6b1f"
+        }
+      ]
+    }
+  ]
+}
