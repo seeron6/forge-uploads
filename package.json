@@ -1,0 +1,19 @@
+{
+  "name": "@seeron6/forge-uploads",
+  "version": "0.1.0",
+  "description": "Resumable uploads, virus scan, image transforms, signed URLs.",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo 'no tests yet' && exit 0"
+  },
+  "keywords": [
+    "forge",
+    "framework",
+    "uploads",
+    "node",
+    "s3",
+    "clamav"
+  ],
+  "license": "MIT"
+}
